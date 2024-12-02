@@ -20,8 +20,8 @@ Esta arquitectura se basa en organizar las carpetas por funcionalidades en lugar
 
 * usar nombres de carpetas alusivas a lo que se va a desarrollar (ejemplo: login, checkout, etc)
 * usar:
-  - camelCase para variables, constantes, funciones
-  - upperCamelCase para nombre de archivos, carpetas y clases
+  - camelCase para variables, constantes, funciones, carpetas
+  - UpperCamelCase para nombre de archivos (index es una excepcion para UpperCamelCase) y clases
 * usar identado de codigo se recomienda usar (prettier) se añadio configuracion de prettier en .prettierrc
 * se debe trabajar en una rama creada a partir de master cuando se vayan a implementar nuevas cosas y seguir la siguiente convencion:
   - f-nueva_funcionalidad: se usa esta convencion para nuevas funcionalidades que se agreguen
@@ -29,6 +29,8 @@ Esta arquitectura se basa en organizar las carpetas por funcionalidades en lugar
 * una vez se termina el desarrollo o correccion se debe subir la rama y generar un nuevo pull request de la rama subida contra master y se debe esperar que el encargado revise el codigo y acepte el pull request
 * evitar codigo duplicado y seguir convenciones y buenas practicas como patrones de diseño y codigo limpio de Robert C. Martin
 * agregar commits alusivos a lo que se hizo en dicho commit esto para identificar mas rapido bugs o problemas en el codigo, evitar escribir commits demasiado explicativos, resumir en pocas palabras lo que se hizo
+* pueden usar los iconos de antdesign asi mismo como los de react-icons no usar imagenes como iconos
+* si se van a agregar imagenes al proyecto estan deben ser optimizadas para la web y su formato debe ser webp
 
 ### Levantar proyecto
 

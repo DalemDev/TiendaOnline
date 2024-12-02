@@ -1,6 +1,8 @@
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App.jsx'
+import NotFound404 from './pages/404/index.jsx';
+import Spinner from './pages/spinner/index.jsx';
 import './assets/styles/index.css'
 
 const rutas = [
@@ -10,16 +12,19 @@ const rutas = [
   },
   {
     path: '*',
-    element: <h1>404</h1>
+    element: <NotFound404 />
   }
 ];
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <Routes>
-      {rutas.map((ruta, index) => (
-        <Route key={index} {...ruta} />
-      ))}
-    </Routes>
-  </BrowserRouter>
+  <>
+    <Spinner />
+    <BrowserRouter>
+      <Routes>
+        {rutas.map((ruta, index) => (
+          <Route key={index} {...ruta} />
+        ))}
+      </Routes>
+    </BrowserRouter>
+  </>
 )
