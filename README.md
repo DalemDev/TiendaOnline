@@ -5,6 +5,7 @@
 1. React Router Dom = para gestionar las rutas de la app
 2. React Icons = para usar iconos en la app
 3. Ant Design = componentes reusables con diseño customizable
+4. React Toastify = para renderizar notificaciones de una forma sencilla
 
 ### Arquitectura a usar
 
@@ -39,7 +40,7 @@ Para levantar el proyecto deberemos ejecutar los siguientes comandos:
 1. docker compose up -d
 2. obtenemos el id ejecutando docker ps y veremos un campo llamado container id lo copiamos para el siguiente paso
 3. entrar al contenedor docker exec -ti id_del_contenedor bash
-4. ejecutar npm run dev
+4. ejecutar npm i y luego npm run dev
 5. la app se levantara en el puerto 5173 (pueden acceder al navegador y colocar en la barra de busqueda: localhost:5173)
 
 ### Secciones del proyecto
