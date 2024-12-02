@@ -1,8 +1,9 @@
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import NotFound404 from './pages/404/index.jsx';
-import Spinner from './pages/spinner/index.jsx';
+import Spinner from './components/spinner/index.jsx';
+import { ToastContainer } from 'react-toastify';
 import './assets/styles/index.css'
 
 const rutas = [
@@ -16,15 +17,12 @@ const rutas = [
   }
 ];
 
+const router = createBrowserRouter(rutas);
+
 createRoot(document.getElementById('root')).render(
   <>
     <Spinner />
-    <BrowserRouter>
-      <Routes>
-        {rutas.map((ruta, index) => (
-          <Route key={index} {...ruta} />
-        ))}
-      </Routes>
-    </BrowserRouter>
+    <ToastContainer />
+    <RouterProvider router={router} />
   </>
 )
