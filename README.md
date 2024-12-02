@@ -16,6 +16,19 @@ Esta arquitectura se basa en organizar las carpetas por funcionalidades en lugar
 - separación de responsabilidades: cada parte de la aplicación tiene un lugar claro
 - mantenibilidad: al crecer el proyecto, la estructura es fácil de entender
 
+### REGLAS Y CONVENCIONES
+
+* usar nombres de carpetas alusivas a lo que se va a desarrollar (ejemplo: login, checkout, etc)
+* usar:
+  - camelCase para variables, constantes, funciones
+  - upperCamelCase para nombre de archivos, carpetas y clases
+* usar identado de codigo se recomienda usar (prettier) se añadio configuracion de prettier en .prettierrc
+* se debe trabajar en una rama creada a partir de master cuando se vayan a implementar nuevas cosas y seguir la siguiente convencion:
+  - f-nueva_funcionalidad: se usa esta convencion para nuevas funcionalidades que se agreguen
+  - h-correccion: se sigue esta convencion para correccion a bugs o procesos
+* una vez se termina el desarrollo o correccion se debe subir la rama y generar un nuevo pull request de la rama subida contra master y se debe esperar que el encargado revise el codigo y acepte el pull request
+* evitar codigo duplicado y seguir convenciones y buenas practicas como patrones de diseño y codigo limpio de Robert C. Martin
+
 ### Levantar proyecto
 
 Para levantar el proyecto deberemos ejecutar los siguientes comandos:
