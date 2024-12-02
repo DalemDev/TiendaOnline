@@ -41,3 +41,11 @@ Para levantar el proyecto deberemos ejecutar los siguientes comandos:
 3. entrar al contenedor docker exec -ti id_del_contenedor bash
 4. ejecutar npm run dev
 5. la app se levantara en el puerto 5173 (pueden acceder al navegador y colocar en la barra de busqueda: localhost:5173)
+
+### Secciones del proyecto
+* Login (modal)
+* Header (logo, barra de busqueda, planes, categorias, lista de deseos, carrito, iniciar sesion)
+* Home (productos en tendencia, lo mas vendido, nuevos productos)
+* socios
+* footer
+* admin
