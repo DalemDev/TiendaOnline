@@ -1,0 +1,35 @@
+.full-layout_header {
+  background: #007bff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.full-layout_nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.full-layout_link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.full-layout_main {
+  padding: 20px;
+  min-height: calc(100vh - 120px); /* aqui ajustamos el tamaño del contenido */
+}
+
+.full-layout_footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+}
