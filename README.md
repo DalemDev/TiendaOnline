@@ -52,7 +52,7 @@ Para levantar el proyecto deberemos ejecutar los siguientes comandos:
 * footer
 * admin
 
-### Comenzar a trabajar
+### Comenzar empezar a trabajar
 
 * clonar el proyecto con "git clone https://github.com/DalemDev/TiendaOnlineFront.git"
 * abrir la carpeta en vs code
