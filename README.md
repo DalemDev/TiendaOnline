@@ -44,9 +44,22 @@ Para levantar el proyecto deberemos ejecutar los siguientes comandos:
 5. la app se levantara en el puerto 5173 (pueden acceder al navegador y colocar en la barra de busqueda: localhost:5173)
 
 ### Secciones del proyecto
+
 * Login (modal)
 * Header (logo, barra de busqueda, planes, categorias, lista de deseos, carrito, iniciar sesion)
 * Home (productos en tendencia, lo mas vendido, nuevos productos)
 * socios
 * footer
 * admin
+
+### Comenzar a trabajar
+
+* clonar el proyecto con "git clone https://github.com/DalemDev/TiendaOnlineFront.git"
+* abrir la carpeta en vs code
+* abrir la terminal y ejecutar "git checkout -b nombre_rama" esto siguiendo las conveciones antes mencionadas
+* empezar a desarrollar lo propuesto una vez terminado ejecutar
+   - git add . (para agregar todos los cambios al stage de git)
+   - git commit -m "mensaje_commit" (seguir las convenciones antes mencionadas)
+   - git push origin nombre_rama (esto pusheara su rama al repositorio)
+* dirigirse al repositorio y dar clic en "Pull requests" > "New pull request" > base: su rama > create pull request
+* esperar revisión y aprobación
